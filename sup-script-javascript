@@ -333,7 +333,7 @@ let fill_payment = async () => {
             document.getElementById(finalID).value = payment[value];
             if (specials.includes(value)) document.getElementById(finalID).dispatchEvent(event)
         }
-        x++
+        x+
     }
     if (document.getElementById("cav")) {
         await sleep(50);
